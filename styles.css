@@ -15,7 +15,7 @@ body {
 } */
 
 .box {
-    border: 3px darksalmon dotted;
+    border: 1px cyan dotted;
     min-height: 350px;
 }
 
@@ -26,8 +26,52 @@ body {
 
 .header {}
 
-.top {
-    border: 2px greenyellow solid
+.topbar {
+    border: 1px green solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px
+}
+
+.logo {
+    font-size: 35px;
+}
+
+.headermain {
+    border: yellow 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 30%;
+    border: 1px lightgoldenrodyellow solid;
+    max-width: 20%;
+    flex-wrap: wrap;    
+}
+
+.headercontainer > * {
+    margin: 5px 0;
+}
+
+.headertext .text {
+    font-size: 18px;
+}
+
+.headerheading {
+    color: #e5e7eb;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.header .button {
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 ul {
@@ -37,7 +81,7 @@ ul {
     display: flex;
     gap: 35px;
     list-style: none;
-    font-size: 26px;
+    font-size: 22px;
     justify-content: end;
     margin-right: 8px;
 }
@@ -114,19 +158,23 @@ button {
     padding: 6px 25px;
     border: white 1px solid;
     cursor: pointer;
-    transition: transform .1s ease-in-out;
 }
 
 button:hover {
+    transition: transform .15s ease-in-out;
     transform: scale(1.2)
 }
 
 .footer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-shrink: 0.33;
     color: white;
     justify-content: center;
     align-items: center;
     min-height: 10vh;
+}
+
+.footer a {
+    margin: 0 3px
 }
