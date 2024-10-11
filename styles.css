@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+    overflow-y: auto;
+    /* min-height: 100vh; */
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+} */
+
+.box {
+    border: 3px darksalmon dotted;
+    min-height: 350px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {}
+
+.top {
+    border: 2px greenyellow solid
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    color: #e5e7eb;
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    font-size: 26px;
+    justify-content: end;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb; 
+}
+
+.info {}
+
+
+.quote {
+    background-color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    font-style: italic;
+    color:#1F2937;
+    font-size: 28px;
+    font-weight: lighter;
+    max-width: 40%;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 40px 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 40vw;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+.text {
+    color: #e5e7eb
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 6px 25px;
+    border: white 1px solid;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2)
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0.33;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
