@@ -14,7 +14,6 @@ body {
 } */
 
 .box {
-    border: 1px cyan dotted;
     min-height: 350px;
 }
 
@@ -24,7 +23,6 @@ body {
 }
 
 .topbar {
-    /* border: 1px green solid; */
     display: flex;
     justify-content: space-between;
     margin: 0 15px
@@ -35,7 +33,6 @@ body {
 }
 
 .headermain {
-    /* border: yellow 1px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +44,6 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     max-width: 30%;
-    /* border: 1px lightgoldenrodyellow solid; */
     max-width: 20%;
     flex-wrap: wrap;
 }
